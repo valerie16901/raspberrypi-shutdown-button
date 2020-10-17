@@ -16,8 +16,11 @@ Using the Pi GPIO header diagram at right, connect the "out" lead to GPIO 23 and
 
 For RaspBMC/Raspbian/Debian distributions (Xbian as well, omit the word sudo), type the following and hit enter after each line:
 
-1. sudo wget http://files.mausberrycircuits.com/setup.sh
+1. sudo wget https://github.com/valerie16901/raspberrypi-shutdown-button/raw/main/setup.sh
 
 2. sudo bash setup.sh
 
 3. sudo reboot
+
+
+NOTES: The original sh file is hosted here: http://files.mausberrycircuits.com/setup.sh
